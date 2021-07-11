@@ -31,7 +31,7 @@ async function handleOnsubmit(e){
     try{
         setLoading(true)
     await signup(emailRef.current.value,passwordRef.current.value);
-        history.push('/user')
+        history.push('/')
         
 }   
     catch{
